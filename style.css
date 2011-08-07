@@ -1,0 +1,103 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	background: blue;
+}
+
+h1 {
+	background: red;
+}
+
+section {
+	background: blue;
+}
+
+div {
+	background: yellow;	
+}
+
+.margin_top {
+	background: yellow;
+	margin-top: 20px;
+}
+
+#comment {
+	background: orange;	
+	margin-top: 20px;
+	height: 40px;
+}
+
+footer {
+	background: purple;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px	;
+}
+
+#shop {
+	height: 200px;
+}
+
+#hot {
+	height: 400px;
+}
+
+#videos {
+	height: 400px;
+}
+
+#more {
+	height: 300px;
+	position: relative;
+	top: -200px;
+}
+
+#find {
+	height: 100px;
+}
+
+#thought {
+	height: 100px;
+}
+
+#centrepiece {
+	height: 540px;
+	overflow: hidden;	
+}
+
+#itunesweekly {
+	background: #333333;	
+}
+
+#itunesweekly div {
+	height: 200px;
+	background: #333333;	
+}
+
+#applestore {
+	background: grey;
+}
+
+#image1 {
+	background:red;
+	height: 360px;
+	margin: 10px;
+}
+
+.height20 {
+	height: 20px;	
+}
+
+.box {
+	padding: 10px;
+	background: #666666;
+	height: 180px;
+}
+
+.subtitle {
+	background: grey;
+}

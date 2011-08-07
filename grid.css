@@ -1,0 +1,76 @@
+/**
+ * Base CSS grid
+ * 12 62px columns each with 10px left + right margin
+ * Total width = 984px
+ * Column gutter = 20px
+ * 
+ * Based on 960.gs with a few modifications
+ * 
+ * @author Alex Bilbie <alex@alexbilbie.com>
+ */
+.container { margin-left: auto;	margin-right: auto;	width: 984px; }
+.container .grid_1, .container .grid_2, .container .grid_3, .container .grid_4, .container .grid_5, .container .grid_6, .container .grid_7, .container .grid_8, .container .grid_9, .container .grid_10, .container .grid_11, .container .grid_12 { display:inline; float: left; position: relative; margin-left: 10px; margin-right: 10px; }
+.container .grid_1 { width:62px }
+.container .grid_2 { width:144px }
+.container .grid_3 { width:226px }
+.container .grid_4 { width:308px }
+.container .grid_5 { width:390px }
+.container .grid_6 { width:472px }
+.container .grid_7 { width:554px }
+.container .grid_8 { width:636px }
+.container .grid_9 { width:718px }
+.container .grid_10 { width:800px }
+.container .grid_11 { width:882px }
+.container .grid_12 { width:964px }
+.container .prefix_1  { padding-left:82px }
+.container .prefix_2  { padding-left:164px }
+.container .prefix_3  { padding-left:246px }
+.container .prefix_4  { padding-left:328px }
+.container .prefix_5  { padding-left:410px }
+.container .prefix_6  { padding-left:492px }
+.container .prefix_7  { padding-left:574px }
+.container .prefix_8  { padding-left:656px }
+.container .prefix_9  { padding-left:738px }
+.container .prefix_10 { padding-left:820px }
+.container .prefix_11 { padding-left:902px }
+.container .suffix_1 { padding-right:82px }
+.container .suffix_2 { padding-right:164px }
+.container .suffix_3 { padding-right:246px }
+.container .suffix_4 { padding-right:328px }
+.container .suffix_5 { padding-right:410px }
+.container .suffix_6 { padding-right:492px }
+.container .suffix_7 { padding-right:574px }
+.container .suffix_8 { padding-right:656px }
+.container .suffix_9 { padding-right:738px }
+.container .suffix_10 { padding-right:820px }
+.container .suffix_11 { padding-right:902px }
+.container .push_1 { left:82px }
+.container .push_2 { left:164px }
+.container .push_3 { left:246px }
+.container .push_4 { left:328px }
+.container .push_5 { left:410px }
+.container .push_6 { left:492px }
+.container .push_7 { left:574px }
+.container .push_8 { left:656px }
+.container .push_9 { left:738px }
+.container .push_10 { left:820px }
+.container .push_11 { left:902px }
+.container .pull_1 { left:-82px }
+.container .pull_2 { left:-164px }
+.container .pull_3 { left:-246px }
+.container .pull_4 { left:-328px }
+.container .pull_5 { left:-410px }
+.container .pull_6 { left:-492px }
+.container .pull_7 { left:-574px }
+.container .pull_8 { left:-656px }
+.container .pull_9 { left:-738px }
+.container .pull_10 { left:-820px }
+.container .pull_11 { left:-902px }
+
+.clearfix:after, .container:after { content:"\0020"; display:block; height:0; visibility:hidden; font-size: 0; clear: both; }
+* html .clearfix, * html .container { zoom: 1; }
+*:first-child+html .clearfix, *:first-child+html .container { zoom: 1; }
+.clear { clear:both; }
+
+.first { margin-left: 0 !important; }
+.last {	margin-right: 0 !important; }
